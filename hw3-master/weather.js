@@ -46,7 +46,7 @@ Parislink.on("click", getWeather);
 //NOTES alternative to the above is to just include the let statement in the 2nd line
 //NOTES jQuery("#get_forecast").on("click", getWeather)
 
-//-----------------------Current Weather----------------------------------------
+//-----------------------Current Weather--------------------------------------
 let getCurrentWeather = function(data) {
   let latitude = data.coords.latitude.toFixed(4);
   let longitude = data.coords.longitude.toFixed(4);
